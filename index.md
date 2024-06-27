@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: alt
       text: Deep Learning
-      link: /deeplearning/outline
+      link: /deeplearning/
   #   - theme: alt
   #     text: API Examples
   #     link: /api-examples
