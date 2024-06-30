@@ -1,7 +1,10 @@
-import { defineConfig } from 'vitepress'
+// import { defineConfig } from 'vitepress'
+import { withMermaid } from "vitepress-plugin-mermaid";
+
+
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default withMermaid({
   title: "长风",
   description: "AI / RUST / Architecture",
   themeConfig: {
@@ -11,6 +14,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'DeepLearning', link: '/deeplearning/' },
+      { text: 'Architecture', link: '/architecture/' },
     ],
     sidebar: {
       "/deeplearning/": [{
@@ -18,13 +22,19 @@ export default defineConfig({
         items: [
           { text: '深度学习框架(candle)', link: './candle' },
         ]
+      }],
+      "/architecture/": [{
+        text: '',
+        items: [
+          { text: '通用的系统架构', link: './general-system-architecture' },
+        ]
       }]
     },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/wanghuayao' },
     ], footer: {
-      message: '基于 MIT 许可发布',
+      message: '',
       copyright: `版权所有 © 2024-${new Date().getFullYear()} huayao.xyz`
     },
   },

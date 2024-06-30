@@ -5,3 +5,8 @@ outline: deep
 
 ##  huggingface/candle 简介
 * Minimalist ML framework for Rust
+
+
+## 资料
+* 使用candle实现的Transformer
+  * https://github.com/nihalpasham/optimus
