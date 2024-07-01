@@ -72,7 +72,7 @@ flowchart LR
     filter(Filter 1..n<br> Mideware)
     subgraph modules*n
         direction TB
-        controller(Controller)
+        controller(Controller/Handler)
         service(Service)
         controller -->|dto| service
     end

@@ -20,6 +20,7 @@ export default withMermaid({
       "/deeplearning/": [{
         text: '神经网络与深度学习',
         items: [
+          { text: '优化神经网络', link: './optimize-neural-network' },
           { text: '深度学习框架(candle)', link: './candle' },
         ]
       }],
@@ -29,6 +30,7 @@ export default withMermaid({
           { text: '通用的系统架构', link: './general-system-architecture' },
         ]
       }]
+
     },
 
     socialLinks: [
