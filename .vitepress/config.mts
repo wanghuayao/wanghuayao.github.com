@@ -25,9 +25,10 @@ export default withMermaid({
         ]
       }],
       "/architecture/": [{
-        text: '',
+        text: '系统架构',
         items: [
           { text: '通用的系统架构', link: './general-system-architecture' },
+          { text: '股票市场行实时情推送系统', link: './stock-market-quotation-push-system' }
         ]
       }]
 
