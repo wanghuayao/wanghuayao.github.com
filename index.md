@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: 
+  name:
   text: "长  风  破  浪  会  有  时\n直  挂  云  帆  济  沧  海"
   tagline: 记录我所学的
   actions:
@@ -26,9 +26,12 @@ features:
     details: Maintainability, Modifiability, Testability, Traceability, Scalability, Reusability, Performance, Availability and Security
   - icon: 🦀
     title: Rust
-    details: Performance、Reliability and Productivity
+    details: Performance, Reliability and Productivity
+  - icon: ✨
+    title: Others
+    details: Java, Spring, Typescript, React, Shell...
 # - title: Others
-  #   details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#   details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
 <style>

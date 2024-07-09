@@ -15,6 +15,7 @@ export default withMermaid({
       { text: 'Home', link: '/' },
       { text: 'DeepLearning', link: '/deeplearning/' },
       { text: 'Architecture', link: '/architecture/' },
+      { text: 'Others', link: '/others/' },
     ],
     sidebar: {
       "/deeplearning/": [{
@@ -30,7 +31,15 @@ export default withMermaid({
           { text: '通用的系统架构', link: './general-system-architecture' },
           { text: '股票市场行实时情推送系统', link: './stock-market-quotation-push-system' }
         ]
+      }],
+      "/others/": [{
+        text: '其他',
+        items: [
+          { text: '通过aws cli启动和停止EC2', link: './start_stop_ec2_via_aws_cli' },
+        ]
       }]
+
+      
 
     },
 
