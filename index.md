@@ -21,11 +21,13 @@ features:
   - icon: 🛸
     title: Deep Learning
     details: Neural Network、 CNN、 RNN、 Transformer
-  # - title: Rust
-  #   details: Rust 
-  # - title: Architecture
-  #   details: 一些架构相关的内容
-  # - title: Others
+  - icon: ⚖️
+    title: Architecture
+    details: Maintainability, Modifiability, Testability, Traceability, Scalability, Reusability, Performance, Availability and Security
+  - icon: 🦀
+    title: Rust
+    details: Performance、Reliability and Productivity
+# - title: Others
   #   details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
