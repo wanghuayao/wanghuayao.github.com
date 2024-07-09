@@ -14,7 +14,7 @@ hero:
   #     text: API Examples
   #     link: /api-examples
   image:
-    src: /the-transformer-model-architecture.png
+    src: /programmer.svg
     alt: The Transformer - model architecture
 
 features:
@@ -34,7 +34,7 @@ features:
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);
 
-  --vp-home-hero-image-background-image: linear-gradient(-45deg, #F8B20A 50%, #FBD884 50%);
+  /* --vp-home-hero-image-background-image: linear-gradient(-45deg, #00BFA6 50%, #00B0FF 50%); */
   --vp-home-hero-image-filter: blur(44px);
 }
 
