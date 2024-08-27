@@ -3,6 +3,7 @@ outline: deep
 ---
 
 # 神经网络与深度学习
+
 ```mermaid
 flowchart TD
   subgraph AI
@@ -14,9 +15,9 @@ flowchart TD
 
 ```
 
-
 ## 神经网络简介
-- 什么是神经网络，它与AI、机器学习、深度学习之间的关系
+
+- 什么是神经网络，它与 AI、机器学习、深度学习之间的关系
 - 神经网络的结构
   - 输入层/隐藏层/输出层
   - 前向传播/反向传播
@@ -26,24 +27,28 @@ flowchart TD
   - 学习一个深度学习的开发框架
 
 ## 神经网络的学习与预测
+
 - 线性回归
   - 均方误差损失函数
 - 逻辑回归
   - 交叉熵损失函数
 
 ## 深度神经网络
+
 - 简单的线性代数
 - 批量梯度下降
 - 矢量化预测与学习过程
 
 ## 数字手写体识别
-- 前期准备（Rust语言/Candle框架介绍）
+
+- 前期准备（Rust 语言/Candle 框架介绍）
 - 数据集的划分
 - 从零开始实现
 - 利用框架实现
 - 端到端的学习
 
 ## 优化神经网络
+
 - 梯度消失与梯度爆炸
 - Regularizing: 正则化
 - Normalizing Input: 归一化输入
@@ -55,8 +60,11 @@ flowchart TD
   - Regularizing
   - dropout
 - 防止网络退化
+  - ResNet
 
-## CNN卷积神经网络
+## CNN 卷积神经网络
+
+- 重新来一遍手写体识别
 - 应用
 - 卷积层
 - 池化层
@@ -65,20 +73,34 @@ flowchart TD
 - 人脸识别
 - 物体检测
 
-## RNN循环神经网络
+## RNN 循环神经网络
+
 - GRU
 - LSTM
-- 双向循环神经网络
+- BRNN 双向循环神经网络
 
+## 残差网络
+
+- ResNet
 
 ## LLM 大语言模型
+
 - 词嵌入
+- tokenizer https://platform.openai.com/tokenizer
 - 注意力机制
-- Transformer模型
-  - Encoder/Decoder
-- 从零实现Transformer模型
+- Transformer 模型
+
+  - Encoder
+    - tokenizer：按出现频率分割，这步骤不需要学习
+    - position encoder：token 的先后关系，位置编码也可以被学习
+    - 多头注意力：
+
+  -Decoder
+
+- 从零实现 Transformer 模型
 
 ## GAN
 
 ## 模型调优
+
 - 迁移学习

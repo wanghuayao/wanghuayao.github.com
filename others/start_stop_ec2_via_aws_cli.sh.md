@@ -1,3 +1,4 @@
+```sh
 #!/bin/bash
 
 INSTANCESTATE_ID=i-xxxxxx
@@ -105,3 +106,4 @@ ssh -o StrictHostKeyChecking=no -CfNg -L 127.0.0.1:18080:127.0.0.1:8080 user@$IP
 
 echo "Success connect to remote."
 exit 0
+```

@@ -36,11 +36,9 @@ export default withMermaid({
         text: '其他',
         items: [
           { text: '通过aws cli启动和停止EC2', link: './start_stop_ec2_via_aws_cli' },
+          { text: 'Python初学者', link: './python_for_beginner' },
         ]
       }]
-
-      
-
     },
 
     socialLinks: [
